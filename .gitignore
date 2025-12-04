@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Data privada
+data/stock.csv
+data/ubicaciones.csv
+data/ventas.csv
+data/TodosLosPedidos.csv
+data/historico_reposiciones.csv
+data/reposicion_pendiente.json
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Entornos
+.env
+.venv/
+venv/
+
+# SO
+.DS_Store
+Thumbs.db
